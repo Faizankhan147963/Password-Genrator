@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: lightgreen;
+}
+
+.container {
+    width: 35%;
+    height: 60vh;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+    text-decoration: underline 2px;
+}
+
+.input_rangel {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.input_rangel input[type="range"] {
+    width: 89%;
+}
+
+.input_rangel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input_rangel span {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.label_checkbox {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+}
+.label_checkbox label{
+    cursor: pointer;
+}
+.button button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    background-color: darkred;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}

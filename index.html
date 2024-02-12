@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>PASSWORD GENRATOR</h1>
+        <input type="text" placeholder="0" name="" id="" readonly class="storeValue">
+        <div class="input_rangel">
+            <input type="range" placeholder="0" value="8" min="0" max="99" name="" id="" class="inputRange">
+            <span class="outputRange">8</span>
+        </div>
+
+        <div class="label_checkbox">
+            <label for="upperCase">Include UpperCase (A-Z)</label>
+            <input type="checkbox" name="" id="upperCase">
+        </div>
+        <div class="label_checkbox">
+            <label for="lowerCase">Include LowerCase (a-z)</label>
+            <input type="checkbox" name="" id="lowerCase">
+        </div>
+        <div class="label_checkbox">
+            <label for="digitCheck">Include Digits (0-9)</label>
+            <input type="checkbox" name="" id="digitCheck">
+        </div>
+        <div class="label_checkbox">
+            <label for="symbols">Include Symbols (!@#$%^&*)</label>
+            <input type="checkbox" name="" id="symbols">
+        </div>
+        <div class="button">
+            <button id="Genrate_now">GENRATE</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
